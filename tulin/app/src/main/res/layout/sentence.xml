@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sentencecontentPanel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:background="@drawable/rectange"
+    tools:context="com.vany.tulin.controller.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/pic_IV"
+            android:layout_width="90dp"
+            android:layout_height="55dp"
+            android:layout_margin="10dp"
+            android:src="@mipmap/example_20170204"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/example_everyday"
+            />
+        <ImageButton
+            android:id="@+id/laba_IB"
+            android:layout_toRightOf="@id/pic_IV"
+            android:layout_alignBottom="@id/pic_IV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/voice32"/>
+        <TextView
+            android:id="@+id/date_TV"
+            android:layout_alignBottom="@id/laba_IB"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/example_date"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/sentence_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/colorGold"
+        android:text="@string/example_sentence"
+        />
+    <TextView
+        android:id="@+id/meaning_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/example_meaning"
+        />
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorwhite"
+    tools:context="com.vany.tulin.controller.MainActivity">
+
+    <Button
+        android:id="@+id/mainBtn"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ring"
+        android:textColor="@color/colorDarkOrange"
+        android:textSize="20sp"
+        android:text="译"/>
+
+    <RelativeLayout
+        android:id="@+id/historyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/mainBtn"
+        android:layout_toLeftOf="@id/mainBtn">
+
+        <TextView
+            android:id="@+id/history_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="查词历史" />
+        <TextView
+            android:id="@+id/historybg_TV"
+            android:layout_above="@id/history_TV"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/history32_normal"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/robotBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/mainBtn"
+        android:layout_toRightOf="@id/mainBtn">
+
+        <TextView
+            android:id="@+id/robot_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:textColor="@color/colorGold"
+            android:layout_centerInParent="true"
+            android:text="机器人" />
+        <TextView
+            android:id="@+id/robotbg_TV"
+            android:layout_above="@id/robot_TV"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/robot32_gold"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">智能词典</string>
+    <!--notice.xml布局文件中的内容 -->
+    <string name="notice">温馨提示：由于语音识别技术尚不完善，很难识别出z字母，因此若单词中含有z字母，请用9代替！如：amaze单词，需语音拼成ama9e，则系统自动识别为amaze单词！若有不便，请谅解！谢谢！</string>
+
+    <!--sentence.xml布局文件中的内容 -->
+    <string name="example_everyday">★每日一句★</string>
+    <string name="example_date">2017-02-04</string>
+    <string name="example_sentence">If someone is strong enough to bring you down,show them you are strong enough to get up.</string>
+    <string name="example_meaning">如果有人足够强大到让你倒下，那你就让他看看，你也能自己站起来。</string>
+    <string name="title_activity_tbs">TBSActivity</string>
+
+    <string name="loading">正在加载中...</string>
+    <string name="load_failed">加载失败，请点我重试</string>
+    <string name="load_end">没有更多数据</string>
+</resources>

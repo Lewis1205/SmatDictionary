@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    android:background="@drawable/item_cookmenu_bg"
+    tools:context="com.vany.tulin.controller.MainActivity">
+
+    <TextView
+        android:id="@+id/itemIdTV"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/itemEnPsTV"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/itemEnPronunceTV"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/itemUsPsTV"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/itemUsPronunceTV"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/itemWordNameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:text="amaze"/>
+        <TextView
+            android:id="@+id/itemWordMeaningTV"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:lines="1"
+            android:text="啊是打发斯蒂芬是的方式打"/>
+    </LinearLayout>
+</LinearLayout>

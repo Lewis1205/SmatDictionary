@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.vany.tulin.controller.MainActivity">
+
+    <TextView
+        android:id="@+id/dialog_word_TV"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pronunciation"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/line"/>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/dialog_enps_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="【英】gəʊ"/>
+        <ImageView
+            android:id="@+id/dialog_enpro_IV"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/voice32"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/dialog_usps_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="【美】goʊ"/>
+        <ImageView
+            android:id="@+id/dialog_uspro_IV"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/voice32"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dialog_meaning_TV"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vt.使大为吃惊，使惊奇\nvi.开始；尝试；行进；增大；\nn.吃惊，好奇\nn.（非正式口语，代替 as）和…一样；如；（非正式口语，思考说下句话、解释或举例时用）大概；可能；\nv.相类似的人[事物]；喜好；爱好；（尤指被
+"/>
+</LinearLayout>
